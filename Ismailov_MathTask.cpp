@@ -8,6 +8,8 @@ int main()
     int NumberA = 0, NumberB = 0;
     EnterDigit(NumberA, "Input height A");
     EnterDigit(NumberB, "Input height B");
-    int RecangleArea = CalcRectangleArea(NumberA,NumberB);
-    cout<<"Area of Rectangle is "<< RecangleArea <<endl;
+    int RecangleArea = Calcost(NumberA,NumberB);
+    cout<<"Area of Ost is "<< Calcost <<endl;
+    int RecangleArea = Calccel(NumberA,NumberB);
+    cout<<"Area of Cel is "<< Calccel <<endl;
 }
